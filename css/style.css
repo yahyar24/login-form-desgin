@@ -1,0 +1,136 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: popping-regular,sans-serif;
+}
+
+.main-container{
+   background: url(../image/bg-01.jpg);
+   width: 100%;
+   min-height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.container{
+   width: 600px;
+   height: 600px;
+   background: #fff;
+   border-radius: 10px;
+}
+
+.center{
+   width: 70%;
+   height: auto;
+   margin: 0px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+.center h1{
+   font-size: 35px;
+   font-weight: 500;
+   color: #303030;
+   margin: 50px 0px 45px 0px;
+   text-transform: capitalize;
+}
+
+
+.social-container{
+   display: flex;
+   justify-content: center;
+}
+
+.social-container a{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #000;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 1px 5px 0px rgb(0,0,0,0.2);
+   padding: 15px 42px;
+   border-radius: 5px;
+}
+
+
+
+.google-btn img{
+   width: 29px;
+   height: 29px;
+   margin-right: 20px;
+}
+
+.facebook-btn{
+   margin-right: 20px;
+}
+
+
+.facebook-btn img{
+   font-size: 26px;
+   width: 40px;
+   height: 34px;
+   color: #fff;
+   background:#00f;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   margin-right: 15px;
+}
+
+
+input[type=text]{
+   width: 100%;
+   height: 50px;
+   border: 1px solid #d8d8d8;
+   border-radius: 5px;
+   background: #f5f5f5;
+   margin: 8px 0px 15px 0px;
+   outline: none;
+   padding: 0px 20px
+}
+
+
+span{
+   font-size: 13px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #808080;
+}
+
+.form-container{
+   margin-top: 40px;
+}
+
+
+input[type=submit]{
+   width: 100%;
+   height: 50px;
+   border: none;
+   border-radius: 5px;
+   margin: 12px 0px 15px 0px;
+   color: #fff; 
+   font-weight: 600;
+   background: #303030;
+}
+
+
+p{
+   font-size: 12px;
+   color: #707070;
+   font-weight: 600;
+   margin: 25px;
+}
+
+
